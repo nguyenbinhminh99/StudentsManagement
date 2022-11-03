@@ -32,22 +32,3 @@ Route::post('/student', [\App\Http\Controllers\StudentController::class, 'store'
 Route::put('/edit/{id}', [\App\Http\Controllers\StudentController::class, 'update']);
 Route::delete('/delete/{id}', [\App\Http\Controllers\StudentController::class, 'delete']);
 
-
-
-
-//Route::post('auth/login', ['uses' => 'AuthController@login', 'as' => 'login']);
-
-//Route::get('students', ['middleware' => 'auth.role:admin,user', 'uses' => 'StudentController@index', 'as' => 'students']);
-
-//Route::group([
-//    'middleware' => 'api',
-//    'prefix' => 'auth'
-//
-//], function ($router) {
-//    Route::post('/login', [AuthController::class, 'login']);
-//    Route::post('/register', [AuthController::class, 'register']);
-//    Route::post('/logout', [AuthController::class, 'logout']);
-//    Route::post('/refresh', [AuthController::class, 'refresh']);
-//    Route::get('/user-profile', [AuthController::class, 'userProfile']);
-//    Route::post('/change-pass', [AuthController::class, 'changePassWord']);
-//});

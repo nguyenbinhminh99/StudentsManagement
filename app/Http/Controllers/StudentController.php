@@ -20,6 +20,7 @@ class StudentController extends Controller
     {
         $student = Student::query()->orderByDesc('id')->get();
         return Responder::success($student, 'Success');
+
     }
 
     /**
@@ -46,7 +47,7 @@ class StudentController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request  $request
      *
      * @return \Illuminate\Http\JsonResponse
      */

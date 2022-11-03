@@ -24,13 +24,13 @@ class StoreStudent extends FormRequest
     public function rules()
     {
         return [
-            'firstname' => ['required','max:50','regex:/^[a-zA-Z]+$/u'],
-            'lastname' => ['required','max:50','regex:/^[a-zA-Z]+$/u'],
-            'phone_number' => ['required','max:50','numeric'],
-            'email' => ['required','email'],
-            'gender' => ['required'],
-            'identification' => ['required','max:12','numeric'],
-            'address' => ['required','max:100']
+//            'firstname' => ['required','max:50','regex:/^[a-zA-Z]+$/u'],
+//            'lastname' => ['required','max:50','regex:/^[a-zA-Z]+$/u'],
+//            'phone_number' => ['required','max:50','numeric'],
+//            'email' => ['required','email'],
+//            'gender' => ['required'],
+//            'identification' => ['required','max:12','numeric'],
+//            'address' => ['required','max:100']
         ];
     }
 }

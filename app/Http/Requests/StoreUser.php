@@ -24,12 +24,12 @@ class StoreUser extends FormRequest
     public function rules()
     {
         return [
-            'username' => ['required','max:50','unique'],
-            'firstname' => ['required','max:50','regex:/^[a-zA-Z]+$/u'],
-            'lastname' => ['required','max:50','regex:/^[a-zA-Z]+$/u'],
-            'phone_number' => ['required','max:50','numeric'],
-            'email' => ['required','email'],
-            'gender' => ['required'],
+//            'username' => ['required','max:50','unique'],
+//            'firstname' => ['required','max:50','regex:/^[a-zA-Z]+$/u'],
+//            'lastname' => ['required','max:50','regex:/^[a-zA-Z]+$/u'],
+//            'phone_number' => ['required','max:50','numeric'],
+//            'email' => ['required','email'],
+//            'gender' => ['required'],
         ];
     }
 }
